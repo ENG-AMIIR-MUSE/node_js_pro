@@ -1,0 +1,76 @@
+starting node js today  and mongo db 
+--------------------------- 
+
+node js  :
+single   thread Ssync , Non block  i/O
+
+
+for each request  is handles by single thread
+
+
+how a single is handling  alot of request 
+event loop 
+
+
+
+
+
+
+single thread : all request willl handle one single thread 
+
+each request you do will assign to one event 
+and if the request end you will get a response 
+and the response is a callback 
+
+async : multiple request are getting proccessed parallely 
+
+non Block :  the request are not blocking each other 
+
+
+
+
+====================================
+package.json  : most imortant file 
+> entry point of the app
+> contains scripts used for this app
+> contains scripts of the app like (start , test )
+> contains meta data : data about data  like (name, version , description) 
+
+
+steps to generate package.json
+1) node js must installed in your system 
+2) navigate to  your folder 
+3) npm inti : node package manger initialize 
+4) answer all questions : type yes
+
+
+Questions related to when you are creating the npm init  in node js 
+1) what is the name of your package : any name
+2) what is the version of your package : 
+3) entery Point : no entyr point 
+4) descriptiono : this is the node tutorials s
+5) test commmad:  no test command
+6) git repository : no git repo
+7) author : your name 
+
+--------
+steps 2 ) How to install any package 
+	some people called dependecny
+	some peope called node package mager 
+	some people called node packate 
+
+Syntax: 
+npm  < package name> 
+
+when you install package it creates two more folders 
+1) package-lock-json: 
+2) node_modules :  every package you install  wil come in this folder 
+      this is very heavy  folder : dont push into github 
+
+------------------------------------
+
+
+
+
+
+
